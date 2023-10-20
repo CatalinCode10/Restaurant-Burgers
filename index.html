@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Bob's Burgers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR-->
+
+    <nav class="nav">
+      <span class="nav__logo">Bobs's Burgers</span>
+      <div>
+        <a href="#home" class="nav__link">Acasa</a>
+        <a href="#aboutus" class="nav__link">Despre noi</a>
+        <a href="#menu" class="nav__link">Meniu</a>
+        <a href="#contact" class="nav__link">
+          <button class="nav__link__button">Contact</button>
+        </a>
+      </div>
+    </nav>
+
+    <!--Header-->
+
+    <header id="home">
+      <h1 class="home__title">Bob's Burgers</h1>
+      <p class="home__paragraph">
+        Bine ați venit la <strong>"Bob's Burgers"</strong> - locul unde pasiunea
+        pentru burgeri se întâlnește cu savoarea autentică! Suntem mândri să vă
+        prezentăm o experiență gastronomică unică, dedicată celor mai delicioși
+        burgeri din oraș.
+      </p>
+      <button class="home__button">Contacteaza-ne</button>
+    </header>
+
+    <!--Main Content-->
+    <main>
+      <section id="about">
+        <img src="assets/about-image.png" alt="" class="about__image" />
+        <div class="about__wrapper">
+          <h2 class="about__title">Despre noi</h2>
+          <p class="about__paragraph">
+            Cu o istorie bogată în bucătăria americană,
+            <strong>"Bob's Burgers"</strong> aduce o notă modernă în lumea
+            burgerilor tradiționali. De la selecția noastră riguroasă de
+            ingrediente proaspete până la rețetele noastre inovatoare, fiecare
+            burger este o operă de artă culinară pregătită cu pasiune și grijă.
+          </p>
+          <button class="about__button">Aflați mai multe</button>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="menu__wrapper">
+          <h2 class="menu__title">Meniu</h2>
+          <p class="menu__paragraph">
+            Vă invităm să explorați meniul nostru variat, care oferă opțiuni
+            pentru toate preferințele, inclusiv burgeri clasici, burgeri
+            vegetarieni și opțiuni personalizate. Indiferent dacă sunteți un
+            iubitor al bucătăriei tradiționale sau doriți să încercați ceva nou,
+            <strong>"Bob's Burgers"</strong> vă așteaptă să descoperiți aromele
+            captivante ale burgerilor noștri.
+          </p>
+          <button class="menu__button">Aflați mai multe</button>
+        </div>
+        <img src="assets/menu-image.png" alt="" class="menu__image" />
+      </section>
+
+      <section id="contact">
+        <h2 class="contact__title">Contact</h2>
+        <form class="contact__form">
+          <label for="name">Nume:</label>
+          <input type="text" id="name" class="contact__form__input" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" class="contact__form__input" />
+          <label for="message">Mesaj:</label>
+          <textarea id="message" class="contact__form__textarea"></textarea>
+          <button class="contact__form__button">Trimite</button>
+        </form>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+      <a href="#home" class="footer__link">Acasa</a>
+      <a href="#about" class="footer__link">Despre</a>
+      <a href="#menu" class="footer__link">Meniu</a>
+      <a href="#contact" class="footer__link">Contact</a>
+    </footer>
+  </body>
+</html>
